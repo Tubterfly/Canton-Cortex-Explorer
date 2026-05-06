@@ -1,0 +1,51 @@
+{
+  "name": "canton-cyber-city",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A 3D intelligence explorer for Canton ledger activity.",
+  "author": "Tubterfly",
+  "license": "MIT",
+  "keywords": [
+    "canton",
+    "blockchain",
+    "ledger",
+    "explorer",
+    "threejs",
+    "react-three-fiber",
+    "hackathon",
+    "data-visualization",
+    "network-analysis"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck && npm run lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.1",
+    "@react-three/postprocessing": "^3.0.4",
+    "@types/three": "^0.184.0",
+    "axios": "^1.15.2",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.14.0",
+    "next": "16.2.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "three": "^0.184.0",
+    "zustand": "^5.0.12"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
